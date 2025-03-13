@@ -16,7 +16,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=900&height=60&lines=𝗣𝗥𝗢𝗚𝗥𝗘𝗦𝗦`🩸+𝗙𝗢𝗥+𝐊𝐈𝐁𝐄𝐓-𝐅𝐗+𝗕𝗢𝗧+`🩸)](https://git.io/typing-svg) 
 
 
- <p align="center"><img src="https://profile-counter.glitch.me/{GLEN BOT}/count.svg" alt="glen :: Visitor's Count" old_src="https://profile-counter.glitch.me/{mustaffa}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{KIBETFX BOT}/count.svg" alt="glen :: Visitor's Count" old_src="https://profile-counter.glitch.me/{mustaffa}/count.svg" /></p>
 
 
 
@@ -30,7 +30,7 @@
  
 
    
-   <a href="https://github.com/jtechde/james/fork"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=blue&style=for-the-badge&logo=iphone" width="700" height="50.45"/></a></p>
+   <a href="https://github.com/Teddytech1/KIBET-FX/fork"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=blue&style=for-the-badge&logo=iphone" width="700" height="50.45"/></a></p>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
