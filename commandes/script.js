@@ -35,18 +35,18 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-     * 𝗚𝗟𝗘𝗡 𝗕𝗢𝗧 IMPORTANT INFO* 
+     * KIBET FX BOT IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/glentech-hub/GLEN-SIMPLE-BOT
+> https://github.com/Teddytech1/KIBET-FX
 
-*WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+*WHATSAPP GROUP*
+> https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *glen*
-│❒⁠⁠⁠⁠ *DEV2* : *Elijah*
+│❒⁠⁠⁠⁠ *DEV1* : *kibet*
+│❒⁠⁠⁠⁠ *DEV2* : *Teddy*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
@@ -124,21 +124,21 @@ const date = moment().format('DD/MM/YYYY');
    *𝗚𝗟𝗘𝗡 𝗕𝗢𝗧 IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/glentech-hub/GLEN-SIMPLE-BOT
+> https://github.com/Teddytech1/KIBET-FX
 
-*WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+*WHATSAPP GROUP*
+> https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+> https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *glen tech*
+│❒⁠⁠⁠⁠ *DEV* : *Kibet fx*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     𝗚𝗟𝗘𝗡 
+     KIBET 
 
 ❒────────────────────❒`;
 
