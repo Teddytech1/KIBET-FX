@@ -1,9 +1,4 @@
-##  🩸THIS IS GLEN BOT 🩸
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=red&center=true&vCenter=true&width=350&height=50&lines=`🩸 KIBET-FX🩸+𝗕𝗢𝗧+`)](https://git.io/typing-svg)
-
-<p align="centre"><img src="https://files.catbox.moe/rx9ww0.jpg" width="900" height="200" />
-
+##  🩸THIS IS 𝐊𝐈𝐁𝐄𝐓-𝐅𝐗 BOT 🩸
 
 ## 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗜𝗦 𝗦𝗔𝗙𝗘 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
 
