@@ -130,7 +130,7 @@ zokou({
     const response = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${arg}&plot=full`);
     const imdbData = response.data;
 
-    let imdbInfo = "Tap on the link to join movie channel on WhatsApp and download movies there :https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10 \n";
+    let imdbInfo = "Tap on the link to join Whatsapp group on WhatsApp and get vpn files there :https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5 \n";
     imdbInfo += " ``` GLEN  FILMS```\n";
     imdbInfo += "*Made by Ibrahim Adams*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
