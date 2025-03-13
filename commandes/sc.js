@@ -34,23 +34,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-      *𝗚𝗟𝗘𝗡 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢* 
+      *𝐊𝐈𝐁𝐄𝐓 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢* 
 ❒───────────────────❒
 *𝗚𝗜𝗧𝗛𝗨𝗕 𝗟𝗜𝗡𝗞*
-> https://github.com/glentech-hub/glentech
+> https://github.com/Teddytech1/KIBET-FX
 
-*𝗠𝗬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟*
-> https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+*𝗠𝗬 𝐆𝐑𝐎𝐔𝐏*
+> https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
 ⁠
 ╭───────────────────❒
 │🩸⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│🩸 *DEV1* : *GLEN*
+│🩸 *DEV1* : *KIBET*
 │
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *𝗚𝗟𝗘𝗡 𝗧𝗘𝗖𝗛*
+     *𝐊𝐈𝐁𝐄𝐓-𝐅𝐗 𝗧𝗘𝗖𝗛*
 
 ❒────────────────────❒`;
 
@@ -123,21 +123,21 @@ const date = moment().format('DD/MM/YYYY');
    *BMW MD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/glentech-hub/glentech
+> https://github.com/Teddytech1/KIBET-FX
 
-*WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+*WHATSAPP GROUP*
+> https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+> https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *glen *
+│❒⁠⁠⁠⁠ *DEV* : *kibet *
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     𝗚𝗟𝗘𝗡 
+     𝐊𝐢𝐛𝐞𝐭 
 
 ❒────────────────────❒`;
 
