@@ -27,7 +27,7 @@ keith({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 
   // Prepare the initial message tag
   let tag = `========================\n  
-        🩸 *𝐆𝐋𝐄𝐍 𝐁𝐎𝐓* 🩸
+        🩸 *𝐊𝐈𝐁𝐄𝐓𝐅𝐗 𝐁𝐎𝐓* 🩸
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -485,7 +485,7 @@ keith({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest,
        repondre(error)
     }
 
-  } else { repondre('You are not entitled to this order') ;
+  } else { repondre('You are not Kibet') ;
 
   }
 
