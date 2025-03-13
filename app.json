@@ -1,9 +1,9 @@
 {
-  "name":"GLEN-BOT",
-  "description":"Best whatsapp bot created by glen",
+  "name":"𝐊𝐈𝐁𝐄𝐓-𝐅𝐗-BOT",
+  "description":"Best whatsapp bot created by Kibet",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/rx9ww0.jpg",
-  "repository":"https://github.com/glentech-hub/glentech",
+  "logo":"https://files.catbox.moe/w7vcic.jpg",
+  "repository":"https://github.com/Teddytech1/KIBET-FX",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -77,14 +77,14 @@
        "BOT_NAME" : 
     {
     "description":"put A name for your bot",
-    "value":"Glen-bot",
+    "value":"KIBET-FX-bot",
     "required":false
 
     },
        "BOT_MENU_LINKS" : 
    {
     "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-    "value":"https://files.catbox.moe/eb57ey.jpg",
+    "value":"https://files.catbox.moe/w7vcic.jpg",
     "required":false
        
      },
@@ -97,7 +97,7 @@
 	,
     "HEROKU_API_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
-     "value":"HRKU-4e30b0fa-c892-471f-833b-dbdb416de2d3", 
+     "value":"HRKU-65b2f652-cb83-4b96-9121-4d21f0d7c946", 
      "required" :false
     },
   "HEROKU_APP_NAME": {
@@ -117,14 +117,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "glen"
+    "value": "Kibet☠️"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254104882369"
+    "value": "254799963583"
   },
     "WARN_COUNT":
   {
