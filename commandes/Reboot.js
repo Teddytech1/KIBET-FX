@@ -19,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("GLEN-BOT bot Restarting 😩");
+    repondre("KIBETFX-BOT bot Restarting 😩");
 
   exec("pm2 restart all");
   
