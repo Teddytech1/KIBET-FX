@@ -73,7 +73,7 @@ else {
     } else {
         if(!superUser) { repondre("USKUE FALA BANA🙆😒😂") ; return};
 
-      await   repondre("TANGU LINI A LEGIT GLEN BOT IKAZIMA,, ACHA UFALA MZEE");
+      await   repondre("TANGU LINI A LEGIT  BOT IKAZIMA,, ACHA UFALA MZEE");
          repondre("YOO DON'T DISTURB ME 🤦AM ALWAYS ACTIVE :)")
      }
  } else {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *GLEN BOT* is alive just like you gee. ')
+repondre(' Holla🥴, *KIBETFX BOT* is alive just like you gee. ')
 
 }
     });
