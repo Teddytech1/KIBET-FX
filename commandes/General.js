@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING GLEN BOT, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb7pQWM8kyyIfIMbsQ10 GROUP LINK IS HERE ☉\n\n❒https://chat.whatsapp.com/JDoEp9h5JGs7qYjwI1mV52] \n\n ) 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING GLEN BOT,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING KIBET-FX BOT, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5 GROUP LINK IS HERE ☉\n\n❒https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5] \n\n ) 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING KIBETFX BOT,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
